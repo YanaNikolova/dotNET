@@ -1,0 +1,31 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script>
+        $(function () {
+            $('#btn-all').on('click', function () {
+                $.get('/api/log', function (data) {
+                    $('#result').empty();
+                    $.each(data, function (i, v) {
+                        $('#result').html($('#result').html() + v.Title + '<br />');
+                    });
+                }, 'json');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div>
+        <button id="btn-all">Get all movies</button> <button id="btn">Get movie</button> <button id="btn-delete">Delete Movie</button>
+        @Html.DropDownList("MovieId", Enumerable.Range(1, 5).Select(i => new SelectListItem { Text = i.ToString() }))
+        <div id="result"></div>
+    </div>
+</body>
+</html>

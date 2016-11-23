@@ -1,0 +1,12 @@
+﻿@model TVSeriesCalendar_3.Models.ShowViewModel
+@{
+    Layout = "";
+}
+<hr />
+@foreach (var item in Model.PopularShows)
+{
+    <a href="@Url.Action("TVShowDetails", "Show", new { id = item.ID })" class="">@item.Name</a><br />
+}
+
+<p><a class="btn btn-default" href="@Url.Action("GetPopularShows", "Home")">See more &raquo;</a></p>
+<hr />

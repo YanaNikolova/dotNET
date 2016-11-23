@@ -1,0 +1,48 @@
+﻿@model TVSeriesCalendar_3.Models.Show
+
+@{
+    ViewBag.Title = "TVShowDetails";
+}
+
+<div class="tv-container">
+    <div class="tv-poster">
+        <img src="@Url.Content(Model.PosterPath.AbsoluteUri.ToString())" alt="Image" /><br />
+        <a href="@Url.Action("AddToFavorites", "Show", new { id = Model.ID })" class="btn btn-add">Add to Favorites</a>
+    </div>
+    <div class="tv-info">
+        <label>Name:</label>
+        @Html.DisplayFor(modelItem => Model.Name)<br />
+        <label>Id:</label>
+        @Html.DisplayFor(modelItem => Model.ID)<br />
+        <label>Air date:</label>
+        @Html.DisplayFor(modelItem => Model.FirstAirDate)<br />
+        <label>Original name:</label>
+        @Html.DisplayFor(modelItem => Model.OriginalName)<br />
+        <label>Overview:</label>
+        @Html.DisplayFor(modelItem => Model.Overview) <br />
+        <label>Origin country:</label>
+        @Html.DisplayFor(modelItem => Model.OriginCountry)<br />
+        <label>Popularity:</label>
+        @Html.DisplayFor(modelItem => Model.Popularity)<br />
+        <label>Rate:</label>
+        @Html.DisplayFor(modelItem => Model.VoteAverage)<br />
+        <label>Seasons:</label><br />
+        @foreach (var season in Model.SeasonsAndEpisodes)
+        {
+            <div class="seasons">
+                <a href="@Url.Action("AddToFavorites", "Show", new { id = Model.ID })">@season.Key</a>
+            </div>
+        }
+    </div>
+    <div class="tv-similar">
+        <h4>Similar TV Shows</h4>
+        @foreach (var item in Model.SimilarTVShows.Results)
+        {
+            <a href="@Url.Action("TVShowDetails", "Show", new { id = item.Id })" class="">@item.Name</a><br />
+        }
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/Content/js/script.js")
+}

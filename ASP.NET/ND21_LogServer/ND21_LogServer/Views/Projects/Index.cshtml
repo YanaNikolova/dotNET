@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ND21_LogServer.Models.Projects.Project>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<h2>Projects</h2>
+
+<div class="container">
+    @Html.ActionLink("Create New", "Create", "", new { @class = "btn btn-default" })
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Notes</th>
+            <th>Active</th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Notes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Active)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Details", "Details")
+                </td>
+            </tr>
+        }
+    </table>
+</div>

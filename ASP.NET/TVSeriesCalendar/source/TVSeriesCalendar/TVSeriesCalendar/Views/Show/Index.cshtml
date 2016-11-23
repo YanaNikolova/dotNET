@@ -1,0 +1,22 @@
+﻿@model TVSeriesCalendar.Models.ShowViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@if (Model.AllResults.Count() != 0)
+{
+    <div class="show-results">
+        @foreach (var show in Model.AllResults)
+        {
+            <div class="res-wrapper">
+                <a href="@Url.Action("TVShowDetails", "Show", new { id = show.ID })">
+                    <img src="@Url.Content(show.PosterPath.AbsoluteUri.ToString())" alt="Image" /><br />
+                    @Html.DisplayFor(x => show.Name)
+                    @Html.DisplayFor(x => show.ID)
+                </a>
+            </div>
+        }
+    </div>
+}

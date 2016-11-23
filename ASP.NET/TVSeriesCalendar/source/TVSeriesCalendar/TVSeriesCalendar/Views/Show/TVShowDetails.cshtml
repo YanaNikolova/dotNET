@@ -1,0 +1,37 @@
+﻿@model TVSeriesCalendar.Models.Show
+
+@{
+    ViewBag.Title = "TVShowDetails";
+}
+
+<div class="tv-container">
+    <div class="tv-poster">
+        <img src="@Url.Content(Model.PosterPath.AbsoluteUri.ToString())" alt="Image" /><br />
+        <a href="@Url.Action("AddToFavorites", "Show", new { id = Model.ID })">Add to Favorites</a>
+    </div>
+    <div class="tv-info">
+        <label>Name:</label>
+        @Html.DisplayFor(modelItem => Model.Name)<br />
+        <label>Id:</label>
+        @Html.DisplayFor(modelItem => Model.ID)<br />
+        <label>Air date:</label>
+        @Html.DisplayFor(modelItem => Model.FirstAirDate)<br />
+        <label>Original name:</label>
+        @Html.DisplayFor(modelItem => Model.OriginalName)<br />
+        <label>Overview:</label>
+        @Html.DisplayFor(modelItem => Model.Overview) <br />
+        <label>Origin country:</label>
+        @Html.DisplayFor(modelItem => Model.OriginCountry)<br />
+        <label>Popularity:</label>
+        @Html.DisplayFor(modelItem => Model.Popularity)<br />
+        <label>Rate:</label>
+        @Html.DisplayFor(modelItem => Model.VoteAverage)
+    </div>
+    <div class="tv-similar">
+        <h4>Similar TV Shows</h4>
+        @foreach (var item in Model.SimilarTVShows.Results)
+        {
+            @Html.DisplayFor(x => item.Name)<br />
+        }
+    </div>
+</div>

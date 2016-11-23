@@ -1,0 +1,79 @@
+﻿@model ND21_LogServer.ViewModels.EventViewModel
+
+@{
+    ViewBag.Title = "ProjectEvents";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Events</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="FilterBox">
+        <div class="FilterBy">
+            <label>
+                @Html.CheckBoxFor(model => Model.ErrorsOnly)
+                Errors only
+            </label>
+            <label>
+                @Html.DropDownListFor(model => model.FilterByProject, new SelectList(Model.Projects, "Id", "Name"))
+            </label>
+        </div>
+        <div class="FilterFor">
+            <label>
+                <span id="day">Current day</span>
+            </label>
+            <label>
+                <span id="week">Current week</span>
+            </label>
+        </div>
+        <div class="FilterPeriod">
+            <label>
+                From date
+                @Html.EditorFor(model => model.fromDate)
+                @Html.ValidationMessageFor(model => model.fromDate)
+            </label>
+            <label>
+                To date
+                @Html.EditorFor(model => model.toDate)
+                @Html.ValidationMessageFor(model => model.toDate)
+            </label>
+        </div>
+        <button type="submit" class="btn btn-default" id="filters-btn">Submit filters</button>
+    </div>
+}
+<div class="container">
+    <table class="table">
+        <tr>
+            <th>ID</th>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Message</th>
+            <th>Location</th>
+            <th>Project</th>
+        </tr>
+        @foreach (var item in Model.ExtendedEvents)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Location)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project)
+                </td>
+            </tr>
+        }
+    </table>
+</div>

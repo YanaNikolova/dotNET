@@ -1,0 +1,22 @@
+﻿@model  IEnumerable<TVSeriesCalendar_3.Models.Show>
+
+@{
+    ViewBag.Title = "GetUserFavoriteShows";
+}
+
+<h3>FavoriteShows</h3>
+
+@if (Model.Count() != 0)
+{
+    <div class="show-results">
+        @foreach (var show in Model)
+        {
+            <div class="res-wrapper">
+                <a href="@Url.Action("TVShowDetails", "Show", new { id = show.ID })">
+                    <img src="@Url.Content(show.PosterPath.AbsoluteUri.ToString())" alt="Image" /><br />
+                    @Html.DisplayFor(x => show.Name)
+                </a>
+            </div>
+        }
+    </div>
+}

@@ -1,0 +1,64 @@
+﻿@model TVSeriesCalendar_3.Models.ShowViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron index">
+    
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/fear.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/daredevil.png")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/the100.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/carter.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/thefall.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/jessica.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/truedetective.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/peaky_blinders.jpg")" alt="Image" />
+    </div>
+    
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/walking_dead.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/banshee.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/expanse.jpg")" alt="Image" />
+    </div>
+    <div class="index-posters">
+        <img src="@Url.Content("~/Content/images/lucifer.jpg")" alt="Image" />
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>@Global.Popular</h2>
+        @Html.Action("GetPopularShows", "Home")
+    </div>
+    <div class="col-md-3">
+        <h2>@Global.TopRated</h2>
+        @Html.Action("GetTopRatedShows", "Home")
+    </div>
+    <div class="col-md-3">
+        <h2>@Global.OnAir</h2>
+        @Html.Action("GetAiringTodayShows", "Home")
+    </div>
+    <div class="col-md-3">
+        <h2>@Global.AiringToday</h2>
+        @Html.Action("GetAiringTodayShows", "Home")
+    </div>
+</div>

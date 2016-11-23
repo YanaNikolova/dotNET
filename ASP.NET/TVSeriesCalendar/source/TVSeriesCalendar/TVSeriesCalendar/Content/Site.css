@@ -1,0 +1,79 @@
+﻿body {
+    margin:0 auto;
+    padding:0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+footer{
+    float:left;
+}
+.container{
+}
+.tv-container {
+    width:100%;
+    min-height: 700px;
+    height: auto;
+    margin:0 auto;
+    margin-top:70px;
+    padding:15px;
+}
+.tv-poster{
+    width:200px;
+    float:left;
+    margin-left:10px;
+    padding: 10px 0 10px 0px;
+
+}
+.tv-info{
+    width:80%;
+    float:right;
+    font-size:18px;
+    padding: 10px 0 10px 0px;
+}
+.tv-similar{
+    width: 200px;
+    margin-left: 10px;
+}
+.tv-info label{
+    margin-bottom:5px;
+}
+.search-container{
+    margin-top:80px;
+}
+.btn.fav.btn-default{
+    width: 186px;
+    border-radius: 0;
+    margin-top: 12px;
+}
+.res-wrapper {
+    width: 17%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#Name{
+    width: 300px;
+    height:32px;
+    border: 1px solid #cccccc;
+    border-radius:5px;
+}
+

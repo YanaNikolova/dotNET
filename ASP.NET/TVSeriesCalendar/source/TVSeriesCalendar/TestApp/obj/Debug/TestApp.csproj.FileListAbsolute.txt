@@ -1,0 +1,10 @@
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\TestApp.exe.config
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\TestApp.exe
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\TestApp.pdb
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\RestSharp.dll
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\TMDbLib.dll
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\RestSharp.xml
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\bin\Debug\TMDbLib.pdb
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\obj\Debug\TestApp.exe
+D:\Workspace\Back-End\TVSeriesCalendar\source\TVSeriesCalendar\TestApp\obj\Debug\TestApp.pdb
