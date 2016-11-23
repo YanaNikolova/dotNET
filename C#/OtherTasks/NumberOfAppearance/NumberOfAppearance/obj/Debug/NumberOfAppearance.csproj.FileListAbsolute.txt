@@ -1,0 +1,6 @@
+c:\users\yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\bin\Debug\NumberOfAppearance.exe.config
+C:\Users\Yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\obj\Debug\NumberOfAppearance.csprojResolveAssemblyReference.cache
+C:\Users\Yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\bin\Debug\NumberOfAppearance.exe
+C:\Users\Yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\bin\Debug\NumberOfAppearance.pdb
+C:\Users\Yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\obj\Debug\NumberOfAppearance.exe
+C:\Users\Yana\documents\visual studio 2013\Projects\NumberOfAppearance\NumberOfAppearance\obj\Debug\NumberOfAppearance.pdb

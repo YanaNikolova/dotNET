@@ -1,0 +1,11 @@
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.csprojResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.MathWithService.resources
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.ProjectInstaller.resources
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.csproj.GenerateResource.Cache
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.exe
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\bin\Debug\MathWindowsServiceHost.pdb
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\bin\Debug\MathServiceLibrary.dll
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\bin\Debug\MathServiceLibrary.pdb
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.exe
+c:\users\yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathWindowsServiceHost\obj\Debug\MathWindowsServiceHost.pdb

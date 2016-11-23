@@ -1,0 +1,8 @@
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\bin\Debug\Composite.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\obj\Debug\Composite.csprojResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\obj\Debug\Composite.Properties.Resources.resources
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\obj\Debug\Composite.csproj.GenerateResource.Cache
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\bin\Debug\Composite.exe
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\bin\Debug\Composite.pdb
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\obj\Debug\Composite.exe
+c:\users\yana\documents\visual studio 2013\Projects\Composite\Composite\obj\Debug\Composite.pdb

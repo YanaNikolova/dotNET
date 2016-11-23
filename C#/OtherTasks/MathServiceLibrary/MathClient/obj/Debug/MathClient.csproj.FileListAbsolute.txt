@@ -1,0 +1,6 @@
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\bin\Debug\MathClient.exe.config
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\bin\Debug\MathClient.exe
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\bin\Debug\MathClient.pdb
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\obj\Debug\MathClient.csprojResolveAssemblyReference.cache
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\obj\Debug\MathClient.exe
+C:\Users\Yana\documents\visual studio 2013\Projects\MathServiceLibrary\MathClient\obj\Debug\MathClient.pdb

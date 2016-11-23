@@ -1,0 +1,8 @@
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\bin\Debug\Prototype.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\obj\Debug\Prototype.csprojResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\obj\Debug\Prototype.Properties.Resources.resources
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\obj\Debug\Prototype.csproj.GenerateResource.Cache
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\bin\Debug\Prototype.exe
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\bin\Debug\Prototype.pdb
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\obj\Debug\Prototype.exe
+c:\users\yana\documents\visual studio 2013\Projects\Prototype\Prototype\obj\Debug\Prototype.pdb

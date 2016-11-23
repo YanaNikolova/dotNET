@@ -1,0 +1,6 @@
+c:\users\yana\documents\visual studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\bin\Debug\CoffeeMachine_Last.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\obj\Debug\CoffeeMachine_Last.csprojResolveAssemblyReference.cache
+C:\Users\Yana\Documents\Visual Studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\bin\Debug\CoffeeMachine_Last.exe
+C:\Users\Yana\Documents\Visual Studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\bin\Debug\CoffeeMachine_Last.pdb
+C:\Users\Yana\Documents\Visual Studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\obj\Debug\CoffeeMachine_Last.exe
+C:\Users\Yana\Documents\Visual Studio 2013\Projects\CoffeeMachine_Last\CoffeeMachine_Last\obj\Debug\CoffeeMachine_Last.pdb

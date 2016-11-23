@@ -1,0 +1,10 @@
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.exe
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\BuilderPattern.pdb
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\Library.dll
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\Library.pdb
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.csprojResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.exe
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\obj\Debug\BuilderPattern.pdb
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\WindowsFormsShapeContainer.dll
+c:\users\yana\documents\visual studio 2013\Projects\BuilderPattern\BuilderPattern\bin\Debug\WindowsFormsShapeContainer.pdb

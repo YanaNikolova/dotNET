@@ -1,0 +1,6 @@
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\bin\Debug\VectorTask.exe.config
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\obj\Debug\VectorTask.csprojResolveAssemblyReference.cache
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\bin\Debug\VectorTask.exe
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\bin\Debug\VectorTask.pdb
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\obj\Debug\VectorTask.exe
+c:\users\yana\documents\visual studio 2013\Projects\VectorTask\VectorTask\obj\Debug\VectorTask.pdb
